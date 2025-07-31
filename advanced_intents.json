@@ -1,0 +1,396 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good evening", "Good afternoon",
+        "Namaste", "hi there", "what's up", "howdy", "greetings", "yo",
+        "Hola", "Sup", "How are you", "How do you do", "Nice to meet you",
+        "Salaam", "Adaab", "Kaise ho", "Kya haal hai", "Ram ram", "Sat sri akal"
+      ],
+      "responses": [
+        "Hello! I'm NeuroBreak-AI, your mental wellness companion. How are you feeling today?",
+        "Hi there! Great to see you. What brings you here today?",
+        "Hey! I'm here to listen and support you. How can I help?",
+        "Namaste! I'm NeuroBreak-AI. How has your day been so far?",
+        "Hello [NAME]! I'm glad you're here. What's on your mind today?",
+        "Hi! I'm your AI wellness companion. How are you doing right now?"
+      ],
+      "celebratory_responses": [
+        "Hello! You seem to be in a good mood today. That's wonderful to see!",
+        "Hi there! I can sense some positive energy from you. What's making you happy today?"
+      ]
+    },
+    {
+      "tag": "feeling_sad",
+      "patterns": [
+        "I am sad", "Feeling low", "I'm upset", "I feel terrible", "I'm depressed",
+        "Mujhe bura lag raha hai", "Mai dukhi hu", "mai pareshan hun", "I'm down",
+        "feeling blue", "I'm heartbroken", "I feel empty", "I'm miserable",
+        "everything sucks", "life is hard", "I can't cope", "feeling hopeless",
+        "I feel lost", "I'm struggling", "feeling overwhelmed", "I'm broken",
+        "udaas hun", "pareshani hai", "mushkil mein hun", "dil tutaa hai"
+      ],
+      "responses": [
+        "I hear you, and I want you to know that your feelings are completely valid. It takes courage to express when you're struggling.",
+        "I'm sorry you're going through this difficult time. You don't have to face this alone.",
+        "Thank you for sharing something so personal with me. It sounds like you're carrying a heavy burden right now.",
+        "Mai samajh sakta hun ki aap kaisi mushkil mein hain. Aap akele nahi hain is sab mein.",
+        "Your pain is real, and it matters. Sometimes the first step towards healing is acknowledging how we feel.",
+        "I can sense the weight you're carrying. What would feel most supportive for you right now?"
+      ],
+      "supportive_responses": [
+        "I notice you're having a really tough time. Would it help to talk about what's contributing to these feelings?",
+        "Sometimes when we're sad, it helps to remember that feelings are temporary, even though they feel overwhelming right now.",
+        "It sounds like you're dealing with a lot. What has helped you get through difficult times before?"
+      ]
+    },
+    {
+      "tag": "feeling_anxious",
+      "patterns": [
+        "I'm anxious", "I'm worried", "I'm nervous", "I can't stop thinking",
+        "my heart is racing", "I'm stressed out", "I'm panicking", "I feel overwhelmed",
+        "chinta ho rahi hai", "tension hai", "ghabrahat ho rahi hai", "dar lag raha hai",
+        "overthinking", "can't relax", "restless", "on edge", "fearful",
+        "scared", "terrified", "anxious thoughts", "worry too much", "panic attack"
+      ],
+      "responses": [
+        "Anxiety can feel overwhelming, but you're safe right now. Let's try to ground you in this moment.",
+        "I understand that anxious feeling. Your mind might be racing, but let's focus on your breath for a moment.",
+        "Anxiety is your mind's way of trying to protect you, even when there's no immediate danger. You're not alone in this.",
+        "Ghabrahat hona normal hai, lekin aap safe hain. Kya aap mere saath kuch breathing exercise try karna chahenge?",
+        "Those racing thoughts can be exhausting. What usually helps you feel more grounded?",
+        "I hear the worry in your words. Let's work together to find some calm in this storm."
+      ],
+      "supportive_responses": [
+        "When anxiety hits, sometimes it helps to name 5 things you can see, 4 things you can touch, 3 things you can hear, 2 things you can smell, and 1 thing you can taste.",
+        "Your anxiety is valid, but remember - you've gotten through difficult moments before, and you can get through this one too."
+      ]
+    },
+    {
+      "tag": "ask_for_coping_strategy",
+      "patterns": [
+        "How to relax?", "Give me a coping tip", "Help with stress", "What can I do to feel better?",
+        "Tension ho rahi hai", "Shanti kaise milegi?", "I am stressed", "mai stress me hu",
+        "coping mechanisms", "relaxation techniques", "stress relief", "how to calm down",
+        "breathing exercises", "meditation help", "mindfulness", "self care tips",
+        "what should I do", "help me cope", "stress management", "anxiety relief"
+      ],
+      "responses": [
+        "Here's a powerful technique: Try the 4-7-8 breathing method. Breathe in for 4 counts, hold for 7, then exhale slowly for 8 counts. This activates your body's relaxation response.",
+        "One thing that often helps is the 'STOP' technique: Stop what you're doing, Take a breath, Observe your thoughts and feelings, then Proceed with intention.",
+        "Progressive muscle relaxation can be very effective. Start by tensing and then releasing each muscle group, beginning with your toes and working up to your head.",
+        "Gehri saans lene ki koshish karein. 4 tak saans andar lein, 4 tak rokein, phir 6 tak chhodein. Yeh aapko shant kar dega.",
+        "Sometimes a change of environment helps. Can you step outside, look out a window, or even just move to a different room?",
+        "Grounding through your senses can be powerful. Try holding an ice cube, listening to calming music, or focusing on a pleasant scent."
+      ],
+      "celebratory_responses": [
+        "I love that you're being proactive about your mental health! Here's a technique that might help maintain your positive energy..."
+      ]
+    },
+    {
+      "tag": "loneliness",
+      "patterns": [
+        "I feel lonely", "I'm alone", "no one understands me", "I have no friends",
+        "akela hun", "koi nahi hai mere paas", "tanhai lag rahi hai", "isolation",
+        "disconnected", "no one to talk to", "feeling isolated", "all by myself",
+        "nobody cares", "I don't belong", "outcast", "social anxiety", "withdrawn"
+      ],
+      "responses": [
+        "Loneliness is one of the most human experiences, yet it makes us feel so uniquely isolated. You're not as alone as you feel right now.",
+        "I hear you, and I want you to know that reaching out here shows incredible strength. Connection can start with small steps.",
+        "Loneliness doesn't mean you're unlovable or that something is wrong with you. Sometimes we just need to find our people.",
+        "Tanhai ek mushkil feeling hai, lekin yaad rakhiye ki aap valuable hain aur deserve karte hain connection.",
+        "Even in loneliness, you took the step to reach out here. That tells me you have courage and hope inside you.",
+        "What does connection mean to you? Sometimes understanding what we're missing helps us find it."
+      ]
+    },
+    {
+      "tag": "anger_frustration",
+      "patterns": [
+        "I'm angry", "I'm frustrated", "I'm furious", "this is unfair", "I hate this",
+        "gussa aa raha hai", "pareshan hun", "bharosa uth gaya hai", "irritated",
+        "annoyed", "pissed off", "fed up", "can't take it anymore", "rage",
+        "livid", "outraged", "resentful", "bitter", "disappointed"
+      ],
+      "responses": [
+        "Anger is a valid emotion, and it often signals that something important to you has been threatened or violated.",
+        "I can hear the frustration in your words. Anger can be exhausting - what's at the core of what's bothering you?",
+        "Sometimes anger is our heart's way of protecting something we care deeply about. What matters most to you in this situation?",
+        "Gussa hona bilkul normal hai. Kabhi kabhi gussa humein dikhata hai ki kya humein important hai.",
+        "Your anger is telling you something important. Once we understand it, we can channel that energy constructively.",
+        "It sounds like you're dealing with something really challenging. What would justice or resolution look like for you?"
+      ]
+    },
+    {
+      "tag": "self_doubt",
+      "patterns": [
+        "I'm not good enough", "I always mess up", "I'm a failure", "I can't do anything right",
+        "mai kuch nahi kar sakta", "mai bekar hun", "mujhse kuch nahi hota", "imposter syndrome",
+        "self-criticism", "I hate myself", "I'm worthless", "everyone is better than me",
+        "I don't deserve", "I'm not smart enough", "I'm ugly", "nobody likes me"
+      ],
+      "responses": [
+        "Those thoughts must be so heavy to carry. But I want you to know that your inner critic is not telling you the truth about who you are.",
+        "Self-doubt can be overwhelming, but it's often our mind trying to protect us from failure in a way that actually holds us back.",
+        "You are here, you are trying, you are reaching out - these are not the actions of someone who is 'not good enough.'",
+        "Aap apne bare mein jo soch rahe hain, woh sirf thoughts hain, reality nahi. Aap valuable hain.",
+        "What would you say to a friend who was feeling this way about themselves? Sometimes we need to offer ourselves the same compassion.",
+        "Your worth isn't determined by your achievements or mistakes. You have inherent value just by being who you are."
+      ]
+    },
+    {
+      "tag": "sleep_issues",
+      "patterns": [
+        "can't sleep", "insomnia", "trouble sleeping", "restless nights", "nightmares",
+        "neend nahi aa rahi", "raat bhar jaagta hun", "sapne aate hain", "sleep anxiety",
+        "tired but can't sleep", "overthinking at night", "sleep problems", "exhausted"
+      ],
+      "responses": [
+        "Sleep troubles can create a difficult cycle where worry about sleep makes it even harder to rest. You're not alone in this struggle.",
+        "Poor sleep affects everything - your mood, energy, and ability to cope. What does your bedtime routine usually look like?",
+        "Sometimes our minds are most active when we finally have quiet moments. Have you tried any relaxation techniques before bed?",
+        "Neend na aana bahut pareshaan kar deta hai. Kya aap sone se pehle koi relaxing activity karte hain?",
+        "Your sleep matters tremendously for your mental health. What time do you usually try to go to bed?",
+        "Racing thoughts at bedtime are so common. Sometimes it helps to do a 'brain dump' - write down your worries to revisit tomorrow."
+      ]
+    },
+    {
+      "tag": "gratitude_positive",
+      "patterns": [
+        "I'm grateful", "thank you", "feeling blessed", "things are good", "I'm happy",
+        "shukriya", "khush hun", "accha lag raha hai", "grateful for", "blessed",
+        "positive", "optimistic", "hopeful", "content", "peaceful", "joyful",
+        "things are looking up", "feeling better", "good day", "celebrating"
+      ],
+      "responses": [
+        "It's beautiful to hear gratitude in your voice! Celebrating positive moments is so important for our mental health.",
+        "I love that you're recognizing the good in your life. What's contributing most to these positive feelings?",
+        "Your gratitude is inspiring! It takes intentionality to notice and appreciate the good, especially during challenging times.",
+        "Khushi sun kar bahut accha laga! Positive feelings ko celebrate karna important hai.",
+        "Gratitude has such powerful effects on our wellbeing. What are you most grateful for right now?",
+        "It's wonderful that you're in a good space. How can you hold onto this feeling when harder moments come?"
+      ],
+      "celebratory_responses": [
+        "That's absolutely wonderful! Your positive energy is contagious. What's been the highlight of your day?",
+        "I'm so happy to hear you're doing well! Moments like these are precious - what's making today special?"
+      ]
+    },
+    {
+      "tag": "relationship_issues",
+      "patterns": [
+        "relationship problems", "fighting with partner", "breakup", "divorce", "family issues",
+        "rishte mein pareshani", "ghar mein ladai", "partner se jhagda", "relationship advice",
+        "trust issues", "communication problems", "feeling disconnected", "conflict resolution",
+        "marriage problems", "dating struggles", "friendship issues", "betrayal"
+      ],
+      "responses": [
+        "Relationship challenges can be some of the most emotionally difficult experiences we face. What feels most important to address right now?",
+        "It sounds like you're navigating some complex relationship dynamics. How are you taking care of yourself through this?",
+        "Relationships require constant navigation, and conflict is normal - though that doesn't make it less painful when you're in it.",
+        "Rishton mein ups and downs aate rehte hain. Sabse pehle yeh important hai ki aap apna khayal rakhein.",
+        "What would a healthy resolution look like for you in this situation? Sometimes clarity about our hopes helps guide our actions.",
+        "Relationships can trigger our deepest insecurities and greatest joys. What patterns do you notice in your relationships?"
+      ]
+    },
+    {
+      "tag": "work_stress",
+      "patterns": [
+        "work stress", "job pressure", "boss problems", "career anxiety", "burnout",
+        "kaam ka stress", "office mein pareshani", "job se thak gaya", "work life balance",
+        "deadline pressure", "toxic workplace", "career confusion", "job interview anxiety",
+        "unemployment stress", "overworked", "workplace conflict", "imposter syndrome at work"
+      ],
+      "responses": [
+        "Work stress can consume so much of our mental energy and affect every area of our lives. What aspect of work is weighing on you most?",
+        "It sounds like your work environment might be taking a toll on your wellbeing. How are you managing the pressure?",
+        "Career challenges can trigger deep questions about our identity and worth. You're more than your job title or performance.",
+        "Kaam ka stress zindagi mein bahut affect karta hai. Kya aap work ke baad khud ko relax kar paate hain?",
+        "Burnout is real and serious. What boundaries might help you protect your energy and mental health?",
+        "Sometimes work stress reflects broader questions about meaning and fulfillment. What matters most to you in your career?"
+      ]
+    },
+    {
+      "tag": "motivation_support",
+      "patterns": [
+        "I need motivation", "feeling stuck", "no energy", "procrastination", "lazy feeling",
+        "motivation chahiye", "kuch karne ka man nahi kar raha", "energy nahi hai", "stuck hun",
+        "can't get started", "lost motivation", "feeling unmotivated", "need encouragement",
+        "giving up", "no drive", "apathy", "lack of purpose", "direction chahiye"
+      ],
+      "responses": [
+        "Sometimes low motivation is our mind and body's way of telling us we need rest, reassessment, or a different approach.",
+        "You reached out today, which shows you still have a spark of motivation inside you. That's something to build on.",
+        "Motivation often follows action, not the other way around. What's one tiny step you could take right now?",
+        "Lagta hai aap stuck feel kar rahe hain. Kabhi kabhi chhote steps lena better hota hai bade goals ke bajay.",
+        "What used to excite or energize you? Sometimes reconnecting with our 'why' can reignite motivation.",
+        "It's okay to have seasons of low energy. What would self-compassion look like for you right now?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "I'm leaving", "Alvida", "Phir milenge",
+        "quit", "exit", "talk to you later", "gotta go", "take care", "farewell",
+        "catch you later", "until next time", "signing off", "chalo bye", "baad mein baat karte hain"
+      ],
+      "responses": [
+        "Take care of yourself, [NAME]. Remember, I'm here whenever you need support.",
+        "Goodbye! You've shown real courage by reaching out today. Be gentle with yourself.",
+        "See you later! Remember what we talked about, and don't hesitate to come back anytime.",
+        "Alvida! Apna khayal rakhiyega aur yaad rakhiye, aap akele nahi hain.",
+        "Until next time, be kind to yourself. You deserve all the peace and happiness in the world.",
+        "Goodbye for now! I hope our conversation brought you some comfort. You're stronger than you know."
+      ],
+      "supportive_responses": [
+        "I'm glad we could talk today. Please remember that seeking help is a sign of strength, not weakness.",
+        "Take care, and remember - healing isn't linear. Be patient with yourself."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you", "Thanks", "Appreciate it", "Shukriya", "grateful", "thanks a lot",
+        "thank you so much", "I appreciate you", "that helped", "feeling better now",
+        "dhanyawad", "bahut shukriya", "thanks for listening", "you helped me"
+      ],
+      "responses": [
+        "You're so welcome! It takes courage to open up, and I'm honored you trusted me with your thoughts.",
+        "I'm really glad I could help! Remember, you did the hard work of being honest about your feelings.",
+        "Thank you for letting me be part of your journey today. You're stronger than you realize.",
+        "Khushi hui aapki madad kar ke! Yaad rakhiye, aap brave hain jo help maang rahe hain.",
+        "It means a lot to hear that our conversation helped. You deserve all the support in the world.",
+        "Thank you for being so open and vulnerable. That's where real healing begins."
+      ]
+    },
+    {
+      "tag": "mood_check",
+      "patterns": [
+        "How am I doing?", "Check my mood", "What's my mood like?", "Mera mood kaisa hai?",
+        "i feel good", "feeling okay", "doing better", "mood is fine", "I'm alright",
+        "how do I seem", "what do you think about my mood", "analyze my feelings"
+      ],
+      "responses": [
+        "Based on our conversation, you seem to be [EMOTION]. How does that feel accurate to you?",
+        "I sense some [EMOTION] energy from you today. What's your own sense of how you're doing?",
+        "You've been very thoughtful in sharing your feelings. How would you describe your emotional state right now?",
+        "Aap kaafi honest aur brave lag rahe hain apne feelings share karne mein. Aap khud kaise feel kar rahe hain?",
+        "From what you've shared, it sounds like you're navigating some complex emotions. What feels most prominent for you?",
+        "That's great to hear! I'm glad you're feeling good. What's contributing to this positive mood?"
+      ]
+    },
+    {
+      "tag": "crisis_support",
+      "patterns": [
+        "I want to end my life", "I want to harm myself", "I can't take it anymore", 
+        "I feel suicidal", "Mujhe apni jaan deni hai", "Mai khud ko nuksaan pahunchana chahta hu",
+        "I feel like giving up", "I can't go on", "suicide", "kill myself", "want to die",
+        "ending it all", "no point living", "better off dead", "self harm", "cutting myself"
+      ],
+      "responses": [
+        "I'm really concerned about you right now, and I want you to know that your life has value. Please reach out to a crisis helpline immediately: National Suicide Prevention Lifeline: 988 (US) or Aasra: +91-22-27546669 (India). You don't have to go through this alone.",
+        "What you're feeling right now is temporary, even though it feels overwhelming. Please contact emergency services or a crisis helpline: Vandrevala Foundation: 1860-2662-345 (India) or 988 (US). There are people trained to help you through this crisis.",
+        "Your pain is real, but ending your life is not the solution. Please call a crisis helpline right now: KIRAN: 1800-599-0019 (India) or 988 (US). There are people who want to help you find hope again.",
+        "Aap jo feel kar rahe hain woh bahut serious hai. Please turant kisi professional se baat kariye: Aasra: +91-22-27546669 ya Vandrevala Foundation: 1860-2662-345. Aapki zindagi important hai aur help available hai."
+      ]
+    },
+    {
+      "tag": "mental_health_education",
+      "patterns": [
+        "what is depression", "anxiety disorder", "mental health info", "therapy types",
+        "depression kya hai", "anxiety kya hoti hai", "mental health", "counseling",
+        "psychiatrist vs psychologist", "medication for mental health", "therapy benefits",
+        "mental illness stigma", "how therapy works", "types of mental health issues"
+      ],
+      "responses": [
+        "Mental health is just as important as physical health. Depression, anxiety, and other conditions are medical issues that can be treated effectively with proper care.",
+        "There are many effective treatments available - therapy, medication, lifestyle changes, and support groups can all play important roles in mental health recovery.",
+        "It's important to know that mental health conditions are not character flaws or personal weaknesses. They're real medical conditions that deserve proper treatment.",
+        "Mental health mein help lena bilkul normal hai. Therapy, counseling, aur medication sab effective treatments hain.",
+        "Different types of therapy work for different people - cognitive behavioral therapy, talk therapy, group therapy, and many others can be very helpful.",
+        "The stigma around mental health is decreasing, but it still exists. Remember, seeking help is a sign of strength and self-awareness."
+      ]
+    },
+    {
+      "tag": "breathing_exercise",
+      "patterns": [
+        "breathing exercise", "teach me to breathe", "pranayama", "deep breathing",
+        "saans lene ki exercise", "breathing technique", "help me calm down with breathing",
+        "box breathing", "4-7-8 breathing", "meditation breathing"
+      ],
+      "responses": [
+        "Let's try the 4-7-8 technique together: Breathe in through your nose for 4 counts... hold for 7 counts... now exhale through your mouth for 8 counts. Let's do this 3-4 times.",
+        "Here's a simple box breathing exercise: Inhale for 4, hold for 4, exhale for 4, hold for 4. Imagine drawing a box with your breath.",
+        "Try this calming breath with me: Take a slow, deep breath in through your nose, feeling your belly expand... now slowly release through your mouth like you're blowing out a candle.",
+        "Chalo ek saath breathing exercise karte hain: 4 tak saans andar lein... 7 tak rokein... aur 8 tak dhire dhire chhodein. Yeh anxiety kam karta hai.",
+        "Focus on your natural breath first. Just notice it without changing it... now gradually make each exhale a little longer than each inhale.",
+        "Place one hand on your chest, one on your belly. Breathe so that the hand on your belly moves more than the one on your chest. This activates your body's relaxation response."
+      ]
+    },
+    {
+      "tag": "mindfulness_exercise",
+      "patterns": [
+        "mindfulness", "present moment", "grounding technique", "5-4-3-2-1 technique",
+        "dhyaan", "meditation help", "focus exercise", "awareness practice",
+        "mindful breathing", "body scan", "present awareness", "grounding exercise"
+      ],
+      "responses": [
+        "Let's try the 5-4-3-2-1 grounding technique: Name 5 things you can see, 4 things you can touch, 3 things you can hear, 2 things you can smell, and 1 thing you can taste.",
+        "Here's a quick mindfulness exercise: Take three deep breaths and then notice - what sounds do you hear right now? What do you feel in your body? What thoughts are present?",
+        "Try this body scan: Starting from your toes, slowly move your attention up through your body, noticing any sensations without trying to change them.",
+        "Mindfulness simple exercise: Sirf 1 minute ke liye apni saans par focus kariye. Jab mind wander kare, gently wapas saans par attention le aayiye.",
+        "Place your feet flat on the ground and really feel that connection. Notice the weight of your body in the chair. This is grounding - connecting with the present moment.",
+        "Look around you and pick one object. Study it closely for 30 seconds - its color, texture, shape. This pulls your mind into the present moment and away from worry."
+      ]
+    },
+    {
+      "tag": "self_care_tips",
+      "patterns": [
+        "self care", "how to take care of myself", "self love", "me time",
+        "khud ka khayal", "self care routine", "wellness tips", "healthy habits",
+        "self compassion", "treating myself better", "self care activities",
+        "how to be kind to myself", "self nurturing", "personal wellness"
+      ],
+      "responses": [
+        "Self-care isn't selfish - it's essential. Start small: drink enough water, get adequate sleep, and be gentle with your inner dialogue.",
+        "Self-care can be as simple as taking 5 minutes to do something you enjoy, saying no to things that drain you, or treating yourself with the same kindness you'd show a friend.",
+        "Create boundaries around your time and energy. It's okay to prioritize your wellbeing and say no to commitments that overwhelm you.",
+        "Self care ka matlab sirf spa days nahi hai - yeh daily chhoti chhoti cheezein hain jaise enough sleep, healthy khana, aur apne emotions ko acknowledge karna.",
+        "Physical self-care: Move your body in ways that feel good, eat nourishing foods, and rest when you need it. Emotional self-care: Express your feelings, set boundaries, and practice self-compassion.",
+        "What brings you joy or peace? Make time for those things regularly, even if it's just for a few minutes each day."
+      ]
+    },
+    {
+      "tag": "compliment_support",
+      "patterns": [
+        "I did something good", "proud of myself", "accomplished something", "feeling confident",
+        "maine kuch accha kiya", "khud par proud hun", "achievement", "success",
+        "feeling good about myself", "personal victory", "overcame challenge", "growth"
+      ],
+      "responses": [
+        "That's wonderful! I'm so proud of you for taking positive steps. What you accomplished matters, and so do you.",
+        "It takes real strength to recognize and celebrate your own growth. You should feel proud of yourself!",
+        "I love hearing about your successes! What felt most meaningful about this accomplishment?",
+        "Bahut accha! Khud par proud hona important hai. Aapne jo achieve kiya hai woh celebrate karne layak hai.",
+        "Your progress, no matter how small it might seem to others, is significant. Thank you for sharing this positive moment with me!",
+        "Success isn't just about big achievements - it's also about the daily courage to keep going. You're doing great!"
+      ],
+      "celebratory_responses": [
+        "This is absolutely amazing! Your hard work is paying off and I couldn't be happier for you!",
+        "Yes! This is exactly the kind of positive momentum that can transform your whole outlook. Keep going!"
+      ]
+    },
+    {
+      "tag": "default_fallback",
+      "patterns": [],
+      "responses": [
+        "I'm still learning, but I'm here to listen. Can you tell me more about what's on your mind?",
+        "That's interesting. I'd love to understand better - can you help me see this from your perspective?",
+        "I might not have the perfect response, but I care about what you're going through. What would be most helpful right now?",
+        "Sometimes the most important conversations are about things I'm still learning. What matters most to you about this?",
+        "I hear you, even if I don't fully understand yet. Can you share more about how this is affecting you?",
+        "Your thoughts and feelings are important, even when they're complex. What would you like to explore about this?"
+      ]
+    }
+  ]
+}
